@@ -1,0 +1,25 @@
+:root {
+  --black: rgb(51, 51, 51);
+  --black-with-opacity: rgba(51, 51, 51, 0.35);
+  --plum: rgb(115, 2, 77);
+  --purple: rgb(99, 63, 152);
+  --white: rgb(249, 246, 237);
+  --white-with-opacity: rgb(249, 246, 237, 0.75);
+  --yellow: rgb(234, 190, 29);
+}
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(var(--purple), var(--plum));
+  height: 100%;
+}
+
+.page {
+  background: var(--black-with-opacity);
+  border-radius: 10px;
+  margin: 15px auto;
+  max-width: 850px;
+}
