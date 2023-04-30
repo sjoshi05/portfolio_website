@@ -9,12 +9,15 @@
 }
 html {
   height: 100%;
+  width: 100%;
 }
 
 body {
   font-family: "Lato", sans-serif;
   background: linear-gradient(var(--purple), var(--plum));
   height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -29,13 +32,17 @@ h2 {
   text-align: center;
 }
 
+object {
+  width: 100%;
+}
+
 .page {
   background: var(--black-with-opacity);
+  background-attachment: scroll;
   border-radius: 10px;
-
   display: block;
   margin: 0 auto;
-  height: clamp(575px, 87vh, 1200px);
+  width: clamp(320px, 90vw, 1200px);
 }
 
 .homepage-paragraph {
@@ -49,4 +56,31 @@ h2 {
   border: 1px solid var(--black);
 
   width: clamp(75px, 15vw, 350px);
+}
+
+.homepage-launch-portfolio-btn {
+  background-color: var(--white);
+  border: 1px solid var(--plum);
+  color: var(--plum);
+  font-weight: bold;
+}
+
+.homepage-launch-portfolio-btn:hover {
+  background-color: var(--plum);
+  border: 1px solid var(--white);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.launch-btn {
+  background: var(--plum);
+  border: 1px solid var(--plum);
+  color: var(--white);
+}
+
+.launch-btn:hover {
+  background: var(--white);
+  border: 1px solid var(--plum);
+  color: var(--plum);
+  font-weight: bold;
 }
