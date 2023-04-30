@@ -58,27 +58,27 @@ object {
   width: clamp(75px, 15vw, 350px);
 }
 
-.homepage-launch-portfolio-btn {
+.page-launch-btn {
   background-color: var(--white);
   border: 1px solid var(--plum);
   color: var(--plum);
   font-weight: bold;
 }
 
-.homepage-launch-portfolio-btn:hover {
+.page-launch-btn:hover {
   background-color: var(--plum);
   border: 1px solid var(--white);
   color: var(--white);
   font-weight: bold;
 }
 
-.launch-btn {
+.project-launch-btn {
   background: var(--plum);
   border: 1px solid var(--plum);
   color: var(--white);
 }
 
-.launch-btn:hover {
+.project-launch-btn:hover {
   background: var(--white);
   border: 1px solid var(--plum);
   color: var(--plum);
