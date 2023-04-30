@@ -84,3 +84,10 @@ object {
   color: var(--plum);
   font-weight: bold;
 }
+
+.about-paragraph {
+  color: var(--white-with-opacity);
+  font-size: clamp(20px, 3vw, 25px);
+  text-align: justify;
+  text-indent: 3%;
+}
