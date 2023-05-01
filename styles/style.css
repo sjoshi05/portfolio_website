@@ -91,3 +91,23 @@ object {
   text-align: left;
   text-indent: 5%;
 }
+
+.contact-paragraph {
+  color: var(--white-with-opacity);
+  font-size: clamp(20px, 3vw, 25px);
+  text-align: left;
+}
+
+.submit-btn {
+  background-color: var(--white);
+  border: 1px solid var(--plum);
+  color: var(--plum);
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: var(--plum);
+  border: 1px solid var(--white);
+  color: var(--white);
+  font-weight: bold;
+}
