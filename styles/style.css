@@ -92,6 +92,10 @@ object {
   text-indent: 5%;
 }
 
+.resume-paragraph {
+  color: var(--white-with-opacity);
+}
+
 .contact-paragraph {
   color: var(--white-with-opacity);
   font-size: clamp(20px, 3vw, 25px);
