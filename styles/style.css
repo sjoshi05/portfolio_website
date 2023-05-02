@@ -22,13 +22,13 @@ body {
 
 h1 {
   color: var(--white);
-  font-size: clamp(40px, 3vw, 95px);
+  font-size: clamp(40px, 5vw, 95px);
   text-align: center;
 }
 
 h2 {
   color: var(--white-with-opacity);
-  font-size: clamp(18px, 3vw, 45px);
+  font-size: clamp(18px, 3vw, 30px);
   text-align: center;
 }
 
@@ -47,15 +47,14 @@ object {
 
 .homepage-paragraph {
   color: var(--white);
-  font-size: clamp(20px, 3vw, 55px);
+  font-size: clamp(20px, 3vw, 40px);
   width: 75vw;
   text-align: start;
 }
 
 .homepage-pic {
-  border: 1px solid var(--black);
-
-  width: clamp(75px, 15vw, 350px);
+  box-shadow: 0px 20px 37px -28px var(--black);
+  width: clamp(75px, 15vw, 150px);
 }
 
 .page-launch-btn {
@@ -114,4 +113,32 @@ object {
   border: 1px solid var(--white);
   color: var(--white);
   font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .large-screen-h2 {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .small-screen-h2 {
+    display: none;
+  }
+  .large-screen-homeheading {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .homepage-h1 {
+    text-align: right;
+  }
+  .large-screen-h2 {
+    padding: 20px;
+  }
+  .homepage-paragraph {
+    width: 75vw;
+    margin: 20px;
+    padding: 10px;
+  }
 }
