@@ -91,9 +91,6 @@ object {
   text-indent: 5%;
 }
 
-.resume {
-  width: 100%;
-}
 .resume-paragraph {
   color: var(--white-with-opacity);
   font-size: clamp(20px, 3vw, 25px);
